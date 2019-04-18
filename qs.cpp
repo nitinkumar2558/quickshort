@@ -24,7 +24,7 @@ int partition(int *a,int startt,int endd){
 void qs(int * a,int startt,int endd){
 	if(startt<endd){
 		//what is pivot==number in array at end and partition ''index'' 	from which we compare
-		int pivot=a[endd];
+		//int pivot=a[endd];
 		//call partition function
 		int pindex=partition(a,startt,endd);
 		//recursive function
